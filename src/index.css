@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'yekanbakh';
+  src: url("./assets/fonts/YekanBakh-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'yekanbakh';
+  src: url("./assets/fonts/YekanBakh-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+:root {
+  --custom-bg: none;
+}
+
+* {
+    font-family: 'yekanbakh', sans-serif !important;
+}
+
+body {
+  background-image: var(--custom-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(31, 31, 31);
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+#style-4::-webkit-scrollbar-track
+{
+	background-color: #000;
+  
+}
+
+#style-4::-webkit-scrollbar
+{
+	width: 4px;
+  
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+	background-color: #fff;
+  border-radius: 10px;
+}
