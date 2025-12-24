@@ -13,7 +13,7 @@ This project was developed as the **Final Project for Harvard University's CS50 
 You can watch a full demonstration of the project on YouTube:
 
 🔗 **YouTube Link:**  
-[PASTE YOUR YOUTUBE VIDEO LINK HERE]
+https://youtu.be/BOMlSdvaRUQ
 
 The video explains:
 - Project features
