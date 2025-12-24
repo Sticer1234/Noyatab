@@ -7,6 +7,8 @@ The extension provides commonly used daily tools such as search, time, task mana
 
 This project was developed as the **Final Project for Harvard University's CS50 course**.
 
+This project was made by React + Vite / Tailwind / Framer Motion / JavaScript
+
 ---
 
 ## 🎥 Project Demonstration Video
